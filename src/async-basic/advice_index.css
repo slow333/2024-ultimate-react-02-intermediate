@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ul li {
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container.hide {
+  display: none;
+}
+.advice {
+  font-size: 1.2rem;
+  color: blueviolet;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+.list-group-item:hover {
+  background-color: antiquewhite;
+}
